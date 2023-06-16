@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+2736;
+}
+
+
+.text-kr{font-family:'SUIT-Regular';}
+.text-en{font-family: 'Inter', sans-serif, 'Chosunilbo_myungjo';}
+
+*{
+    margin:0px;
+    padding:0px;
+    user-select:none;
+    box-sizing:border-box;
+}
+
+
+body {
+    margin:0px;
+    background: linear-gradient(white, rgb(195,207,226));
+  }
+
+
+html{
+    font-size: 10px;
+}
+
+head,body, p{
+    font-family:'SUIT-Regular';
+    font-family: 'Inter', sans-serif;;
+    font-family: 'Chosunilbo_myungjo';
+}
+
+header{
+    height: 130px;
+}
+
+.row
+{
+    width:1020px;
+    display:center;
+    margin:auto;
+    padding:0px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+
+#menu{
+    height:4rem;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#menu ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menu ul li{
+    width:255px;
+    height:50px;
+    text-align: center;
+    list-style: none;
+    user-select:none;
+    padding:15px; 
+    color:#0033ff;
+    float: left;
+}
+#menu ul li:hover{color:#0033ff; background-color:#ffff00}
+
+.col1{width:8.33%; padding: 0px 10px;}
+.col2{width:16.66%; padding: 0px 10px;}
+.col3{width:24.99%; padding: 0px 10px;}
+.col4{width:33.32%; padding: 0px 10px;}
+.col5{width:41.65%; padding: 0px 10px;}
+.col6{width:49.98%; padding: 0px 10px;}
+.col7{width:58.31%; padding: 0px 10px;}
+.col8{width:66.64%; padding: 0px 10px;}
+.col9{width:74.97%; padding: 0px 10px;}
+.col10{width:83.3%; padding: 0px 10px;}
+.col11{width:91.63%; padding: 0px 10px;}
+.col12{width:100%; padding: 0px 10px;}
+
+.text_m
+{
+    margin-bottom:40px;
+    text-align: center;
+    font-weight: 900;
+    margin-top:50px;
+    font-style: italic;
+    font-size: 6rem;
+    padding:20px;
+    justify-content: center;
+    color:white;
+    -webkit-text-stroke: 1px #0033ff;
+    text-shadow: 0 0 5px #0033ff, 0 0 5px #0033ff, 0 0 5px #0033ff, 0 0 5px #0033ff, 0 0 15px #0033ff, 0 0 15px #0033ff, 0 0 15px #0033ff, 0 0 15px #0033ff;
+}
+
+.box
+{
+    width:100px;
+    height:10px;
+}
+
+.text_s
+{
+  font-size:2.5rem;
+  font-weight: 300;
+}
+
+.text_menu
+{
+    text-align: center;
+    font-size:1.5rem;
+    font-weight:700;
+    text-align: center;
+    border:2px solid #0033ff;
+    box-sizing: border-box;
+}
+
+
+.bottom-left {
+    height:40px;
+    width:90%;
+    position: relative;
+    left:20px;
+    bottom: 45px;
+    text-align: center;
+    justify-content: center;
+    padding:10px;
+    font-size: 1.7rem;
+    background-color: rgba(255, 255, 0, 0.4);
+    font-weight: 700;
+    color:#0033ff
+
+}
+.bottom-left2 {
+    height:40px;
+    width:95%;
+    position: relative;
+    left:15px;
+    bottom: 105px;
+    text-align: center;
+    justify-content: center;
+    padding:10px;
+    font-size: 1.7rem;
+    background-color: rgba(255, 255, 0, 0.4);
+    font-weight: 700;
+    color:#0033ff
+}
+
+.bottom-left3 {
+    height:60px;
+    width:103.5%;
+    padding:5px 10px 5px 15px;
+    position: relative;
+    left:-10px;
+    bottom:-10px;
+    text-align: left;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    color:#ffffff;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.text-h{
+    border:2px solid #0033ff; 
+    background-color: #ffff00; 
+    color:#0033ff;
+    line-height: 35px;
+    font-size: 1.5rem;
+}
+
+.text-mini-h
+{
+    border:2px solid #0033ff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    padding:10px 20px 10px 20px;
+    line-height: 25px;
+}
+
+.text-mini-h2
+{
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    padding:10px 20px 10px 20px;
+    line-height: 45px;
+}
+
+.text-p
+{
+    font-size: 20rem;
+    color:rgba(255, 0, 0, 0.2);
+    position:relative;
+    text-align: center;
+    align-items: center;
+    top:-70px;
+}
+
+
+
+.b
+{
+    font-size: 1.4rem;
+    font-weight: 900;
+    font-style: italic;
+    color:#0033ff;
+    background-color: #ffff00;
+}
+.text-H
+{
+    font-size: 4rem;
+    color:#0033ff;
+    font-weight:900;
+}
+
+
+#footer
+{
+  padding:20px;
+  width:1020px;
+  height:200px;
+  text-align: left;
+  margin: auto;
+  line-height: 35px;
+}
+
+
+.text-footer{font-weight: 500; font-size: 1.2rem; line-height: 50px;}
+.text-fc{color:#ffff00; font-size: 1.5rem;}
+.bg-blue{background-color:#0033ff;}
+
+
+
+
+
+  
+
+.signTitle{
+  font-size: 2rem;
+  color:#ffff00;
+  text-align: center;
+}
+
+.tt{
+  padding:0px 0px 0px 20px; text-align:left; color:#0033ff; background-color: #ffff00;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border-radius: 0;
+  border:2px solid #0033ff;
+}
+
+.ttt{
+  padding:0px; text-align:left; color:#0033ff; background-color: #ffff00;
+  font-size: 1.4rem;
+  font-weight: 400;
+  
+}
+
+
+.button-r{
+    padding: 20px;
+    color:#ffffff;
+    font-size: 2rem;
+    background-color: #ffff00;
+    color:#0033ff;
+    font-weight: 700;
+    border-radius: 40px;
+    position:relative;
+    border:none;
+    margin-bottom: 30px;
+    cursor:pointer;
+}
+
+.button-r:hover{
+    padding: 20px;
+    color:#ffffff;
+    font-size: 2rem;
+    background-color: #0033ff;
+    color:#ffff00;
+    font-weight: 700;
+    border-radius: 40px;
+    position:relative;
+    border:none;
+    margin-bottom: 30px;
+    cursor:pointer;
+}
+
+.button1{
+    color:#ffffff;
+    font-size: 3.5rem;
+    background-color: transparent;
+    border:none;
+    position:relative;
+    top:-400px;
+    left:-170px;
+    cursor:pointer;
+}
+
+.button1:hover{
+    color:#ffff00;
+    font-size: 3.5rem;
+    background-color: transparent;
+    border:none;
+    position:relative;
+    top:-400px;
+    left:-170px;
+    cursor:pointer;
+}
+
+.button2{
+    color:#ffffff;
+    font-size: 3.5rem;
+    background-color: transparent;
+    border:none;
+    position:relative;
+    top:-400px;
+    left:60px;
+    cursor:pointer;
+}
+
+.button2:hover{
+    color:#ffff00;
+    font-size: 3.5rem;
+    background-color: transparent;
+    border:none;
+    position:relative;
+    top:-400px;
+    left:60px;
+    cursor:pointer;
+}
+
+.button3{
+    color:#ffffff;
+    font-size: 3.5rem;
+    background-color: transparent;
+    border:none;
+    position:relative;
+    top:-300px;
+    left:130px;
+    cursor:pointer;
+}
+
+.button3:hover{
+    color:#ffff00;
+    font-size: 3.5rem;
+    background-color: transparent;
+    border:none;
+    position:relative;
+    top:-300px;
+    left:130px;
+    cursor:pointer;
+}
+
+
+.hidden {
+    display:none;
+    visibility:hidden;
+}
+/* 모달 윈도우 디자인 */
+.box_modal {
+    position:relative;
+    display:block;
+    width:160px;
+    height:40px;
+    left: 50px;
+    top:-440px;
+    background:#ffff00;
+    border:none;
+    overflow:hidden;
+    /* 아래 부분은 애니메이션 효과를 위한 부분 */
+    filter: alpha(opacity=60);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+  }
+
+  .text
+  {
+    margin:10px;
+    text-align: center;
+    display:inline-block;
+    color:#0033ff;
+  }
+
+  .text h3 {
+    font-size:15px;
+    margin:0px;
+  }
+
+
+  
+  /* 모달 윈도우가 팝업되는 코어 소스 */
+  input#modal[type=checkbox]:checked ~ .box_modal {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+
+  /* 모달 윈도우 디자인2 */
+.box_modal2 {
+    position:relative;
+    display:block;
+    width:160px;
+    height:40px;
+    left: 800px;
+    top:-440px;
+    background:#ffff00;
+    border:none;
+    overflow:hidden;
+    /* 아래 부분은 애니메이션 효과를 위한 부분 */
+    filter: alpha(opacity=60);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+  }
+
+  .text2
+  {
+    margin:10px;
+    text-align: center;
+    display:inline-block;
+    color:#0033ff;
+  }
+
+  .text2 h3 {
+    font-size:15px;
+    margin:0px;
+  }
+
+  
+  /* 모달 윈도우가 팝업되는 코어 소스 */
+  input#modal2[type=checkbox]:checked ~ .box_modal2 {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+
+    /* 모달 윈도우 디자인3 */
+.box_modal3 {
+    position:relative;
+    display:block;
+    width:200px;
+    height:40px;
+    left: 750px;
+    top:-340px;
+    background:#ffff00;
+    border:none;
+    overflow:hidden;
+    /* 아래 부분은 애니메이션 효과를 위한 부분 */
+    filter: alpha(opacity=60);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+  } 
+
+  .text3
+  {
+    margin:10px;
+    text-align: center;
+    display:inline-block;
+    color:#0033ff;
+  }
+
+  .text3 h3 {
+    font-size:15px;
+    margin:0px;
+  }
+
+  
+  /* 모달 윈도우가 팝업되는 코어 소스 */
+  input#modal3[type=checkbox]:checked ~ .box_modal3 {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  /* 모달 윈도우 디자인4 */
+  .button4{
+    background-color: #ffff00;
+    position: relative;
+    height:40px;
+    width:350px;
+    top:-830px;
+    left:-415px;
+    color: #0033ff;
+    padding: 10px 75px 10px 10px;
+    font-size:1.4rem;
+    font-weight:700;
+    cursor:pointer;
+
+    text-align: left;
+}
+
+.button4:hover{
+    background-color: #ffff00;
+    position: relative;
+    height:40px;
+    width:125px;
+    top:-830px;
+    left:-415px;
+    color: #0033ff;
+    padding: 10px 75px 10px 10px;
+    font-size:1.4rem;
+    font-weight:700;
+    cursor:pointer;
+
+    text-align: left;
+}
+
+
+.box_modal4 {
+    position:relative;
+    width:125px;
+    height:125px;
+    left:34px;
+    top:-820.5px;
+    background:#ffff00;
+    border:none;
+    overflow:hidden;
+    /* 아래 부분은 애니메이션 효과를 위한 부분 */
+    filter: alpha(opacity=60);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+  } 
+
+  .text4
+  {
+    margin:10px;
+    text-align: center;
+    display:inline-block;
+    color:#0033ff;
+  }
+
+  .text4 h3 {
+    font-size:15px;
+    margin:0px;
+  }
+
+  
+  /* 모달 윈도우가 팝업되는 코어 소스 */
+  input#modal4[type=checkbox]:checked ~ .box_modal4 {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  /* 모달 윈도우 디자인5 */
+  .button5{
+    background-color: #ffff00;
+    position: relative;
+    height:40px;
+    width:350px;
+    top:-530px;
+    left:-283px;
+    color: #0033ff;
+    padding: 10px 285px 10px 10px;
+    font-size:1.4rem;
+    font-weight:700;
+    cursor:pointer;
+
+    text-align: left;
+}
+
+.button5:hover{
+    background-color: #ffff00;
+    position: relative;
+    height:40px;
+    width:350px;
+    top:-530px;
+    left:-283px;
+    color: #0033ff;
+    padding: 10px 285px 10px 10px;
+    font-size:1.4rem;
+    font-weight:700;
+    cursor:pointer;
+
+    text-align: left;
+}
+
+
+.box_modal5 {
+    position:relative;
+    width:100%;
+    height:100%;
+    left:-283px;
+    top:-520px;
+    background:transparent;
+    border:none;
+    overflow:hidden;
+    /* 아래 부분은 애니메이션 효과를 위한 부분 */
+    filter: alpha(opacity=60);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+  } 
+
+  .text5
+  {
+    margin:10px;
+    text-align: center;
+    display:inline-block;
+    color:#0033ff;
+  }
+
+  .text5 h3 {
+    font-size:15px;
+    margin:0px;
+  }
+
+  
+  /* 모달 윈도우가 팝업되는 코어 소스 */
+  input#modal5[type=checkbox]:checked ~ .box_modal5 {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  /* 모달 윈도우 디자인6 */
+  .button6{
+    background-color: #ffff00;
+    position: relative;
+    width:275px;
+    height:40px;
+    padding: 10px 210px 10px 10px;
+    text-align: left;
+    top:-1080px;
+    left:350px;
+    color: #0033ff;
+    font-size:1.4rem;
+    font-weight:700;
+    cursor:pointer;
+
+    text-align: left;
+}
+
+.button6:hover{
+    background-color: #ffff00;
+    position: relative;
+    width:275px;
+    height:40px;
+    padding: 10px 210px 10px 10px;
+    text-align: left;
+    top:-1080px;
+    left:350px;
+    color: #0033ff;
+    font-size:1.4rem;
+    font-weight:700;
+    cursor:pointer;
+
+    text-align: left;
+}
+
+
+.box_modal6 {
+    position:relative;
+    width:274px;
+    height:155px;
+    padding: 10px 200px 10px 10px;
+    text-align: left;
+    top:-1080px;
+    left:720px;
+    background:transparent;
+    border:none;
+    overflow:hidden;
+    /* 아래 부분은 애니메이션 효과를 위한 부분 */
+    filter: alpha(opacity=60);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+  } 
+
+  .text6
+  {
+    margin:10px;
+    text-align: center;
+    display:inline-block;
+    color:#0033ff;
+  }
+
+  .text6 h3 {
+    font-size:15px;
+    margin:0px;
+  }
+
+  
+  /* 모달 윈도우가 팝업되는 코어 소스 */
+  input#modal6[type=checkbox]:checked ~ .box_modal6 {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+    /*table {width:800}*/
+table, th, td {
+  border:none; 
+  border-collapse: separate;
+  border-spacing: 0 1rem;}
+ 
+ 
+/*헤드부 */
+caption{ 
+  font-size:1.4rem; 
+  font-weight:bold; 
+  text-decoration:underline; 
+  padding:0px;
+  border-collapse: separate;
+  border-spacing: 0 1rem;}
+
+thead, th{ 
+  font-size: 1.5rem;
+  text-align: center;
+  height:40px;
+  margin: 0px;
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+ 
+/*바디부*/
+.toNo, .tdDate , .tdCount {text-align:center; }
+.inBorder {border:solid 1px #CCCCCC ; }
+ 
+ 
+/*link*/
+ 
+/*tbody*/
+tbody a{ color:#333; }
+ 
+tbody a:link{
+    font-size:1.4rem;
+    text-decoration:none;
+ }
+ 
+tbody a:visited{
+    font-size:1.4rem;
+    color:#333;
+    text-decoration:none;
+         
+ }
+tbody a:hover{ text-decoration:underline;}
+tbody a:active { font-size:13px;}

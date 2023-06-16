@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+2736;
+}
+
+
+.text-kr{font-family:'SUIT-Regular';}
+.text-en{font-family: 'Inter', sans-serif, 'Chosunilbo_myungjo';}
+
+*{
+    margin:0px;
+    padding:0px;
+    user-select:none;
+    box-sizing:border-box;
+}
+
+
+body {
+    margin:0px;
+    background: linear-gradient(white, rgb(195,207,226));
+  }
+
+
+html{
+    font-size: 10px;
+}
+
+head,body, p{
+    font-family:'SUIT-Regular';
+    font-family: 'Inter', sans-serif;;
+    font-family: 'Chosunilbo_myungjo';
+}
+
+header{
+    height: 130px;
+}
+
+.row
+{
+    width:1020px;
+    display:center;
+    margin:auto;
+    padding:0px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+
+#menu{
+    height:4rem;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#menu ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menu ul li{
+    width:255px;
+    height:50px;
+    text-align: center;
+    list-style: none;
+    user-select:none;
+    padding:15px; 
+    color:#0033ff;
+    float: left;
+}
+#menu ul li:hover{color:#0033ff; background-color:#ffff00}
+
+.col1{width:8.33%; padding: 0px 10px;}
+.col2{width:16.66%; padding: 0px 10px;}
+.col3{width:24.99%; padding: 0px 10px;}
+.col4{width:33.32%; padding: 0px 10px;}
+.col5{width:41.65%; padding: 0px 10px;}
+.col6{width:49.98%; padding: 0px 10px;}
+.col7{width:58.31%; padding: 0px 10px;}
+.col8{width:66.64%; padding: 0px 10px;}
+.col9{width:74.97%; padding: 0px 10px;}
+.col10{width:83.3%; padding: 0px 10px;}
+.col11{width:91.63%; padding: 0px 10px;}
+.col12{width:100%; padding: 0px 10px;}
+
+.text_m
+{
+    margin-bottom:40px;
+    text-align: center;
+    font-weight: 900;
+    margin-top:50px;
+    font-style: italic;
+    font-size: 6rem;
+    padding:20px;
+    justify-content: center;
+    color:white;
+    -webkit-text-stroke: 1px #0033ff;
+    text-shadow: 0 0 5px #0033ff, 0 0 5px #0033ff, 0 0 5px #0033ff, 0 0 5px #0033ff, 0 0 15px #0033ff, 0 0 15px #0033ff, 0 0 15px #0033ff, 0 0 15px #0033ff;
+}
+
+.text_s
+{
+  font-size:2.5rem;
+  font-weight: 300;
+}
+
+.text_menu
+{
+    text-align: center;
+    font-size:1.5rem;
+    font-weight:500;
+    text-align: center;
+    border:2px solid #0033ff;
+    box-sizing: border-box;
+}
+
+.text_a
+{
+    padding:50px;
+    font-size: 2rem;
+    font-weight: 900;
+    color:#0033ff;
+}
+
+#footer
+{
+  padding:20px;
+  width:1020px;
+  height:200px;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+
+.text-footer{font-weight: 500; font-size: 1.2rem; line-height: 50px;}
+.text-fc{color:#ffff00; font-size: 1.5rem;}
+.bg-blue{background-color:#0033ff;}
+.text_s
+{
+  font-size:2.5rem;
+  font-weight: 300;
+}
+
+
+#slider{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#imageContainer{
+    width:1020px;
+    height:390px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#imageSlider{
+    width:1020px;
+    height:390px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#interface{
+    width:1020px;
+    height:390px;
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    top:323px;
+}
+
+#leftArrow{
+    position: absolute;
+    top:200px;
+    left:30px;
+
+    user-select: none;
+}
+
+#rightArrow{
+    position: absolute;
+    top:200px;
+    right:30px;
+    transform: scaleX(-1);
+
+    user-select: none;
+}
+
+#bottomBtn
+{
+    display: flex;
+    margin-top:350px;
+    width: 50px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#bottomBtn button
+{
+    padding: 5px;
+    border-radius: 100%;
+    border: 3px;
+    background-color: rgba(0, 51, 255, 0.4);
+}
+
+#bottomBtn button:hover
+{
+    background-color: rgba(255, 255, 0 , 0.4);
+}
+
+/*table {width:800}*/
+table, th, td {
+    border:0px solid #333; 
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: 10px;
+}
+   
+   
+  /*헤드부 */
+  caption{ 
+    font-size:1.4rem; 
+    font-weight:bold; 
+    text-decoration:underline; 
+    padding:0px;
+    border-collapse: separate;
+    border-spacing: 2px;}
+  
+  thead, th{ 
+    font-size: 1.5rem;
+    background-color:#0033ff;
+    color: #ffff00;
+    text-align: center;
+    height:40px;
+    margin: 0px;
+    border-collapse:separate;
+    border-spacing: 2px;;
+  }
+   
+  /*바디부*/
+  .toNo, .tdDate , .tdCount {text-align:center; }
+  .inBorder {border:solid 1px #CCCCCC ; }
+   
+   
+  /*link*/
+   
+  /*tbody*/
+  tbody a{ color:#333; }
+   
+  tbody a:link{
+      font-size:1.4rem;
+      text-decoration:none;
+   }
+   
+  tbody a:visited{
+      font-size:1.4rem;
+      color:#333;
+      text-decoration:none;
+           
+   }
+  tbody a:hover{ text-decoration:underline;}
+  tbody a:active { font-size:13px; font-family:궁서;}
+   
+  
+  .signTitle{
+    font-size: 2rem;
+    color:#ffff00;
+    text-align: center;
+  }
+  
+  .tt{
+    padding:0px 0px 0px 20px; text-align:left; color:#0033ff; background-color: #ffff00;
+    font-size: 1.7rem;
+    font-weight: 700;
+    border-radius: 0;
+    border:2px solid #0033ff;
+  }
+  
+  .ttt{
+    padding:0px; text-align:left; color:#0033ff; background-color: #ffff00;
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+  }
+
+  
+.text-1
+{
+    font-size: 1.8rem;
+    color:#ffff00;
+    font-weight: 700;
+}
+
+.text-2
+{
+    font-size: 1.6rem;
+    color:#e6e6e6;
+    font-weight: 300;
+}
+
+.text_s
+{
+  font-size:2.5rem;
+  font-weight: 300;
+}

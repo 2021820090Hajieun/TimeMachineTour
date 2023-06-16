@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T✶M✶T</title>
+    <link rel="stylesheet" href="myStyle2.css">
+        <link rel="shortcut icon" href="fav.ico" type="image/x-icon">
+    <script src="myScript2.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="col12 row">
+            <nav class="text_m">
+                <h1>T<span class="text_s">✶</span>M<span class="text_s">✶</span>T</h1>
+            </nav>
+        </nav>
+    </header>
+
+    <nav id="menu" class="row">
+        <ul class="col12">
+            <li class="text_menu" onclick="location.href='index.html'">Introduce</li>
+            <li class="text_menu" onclick="location.href='index3.html'">Overseas Tour</li>
+            <li class="text_menu" onclick="location.href='index4.html'">Domestic Tour</li>
+            <li class="text_menu" onclick="location.href='index2.html'">Reservation</li>
+        </ul>
+    </nav>
+
+    <nav class="col12 row">
+        <h1 class="text_a">Application Form</h1>
+    </nav>
+
+    <nav class="col12 row">
+        
+        <ul>
+            <h3>
+                <table class="col12 row" id="table">
+                    <form>
+                        <table>
+                            <!-- 헤드부 -->
+                            <thead>
+                                <caption class="col12 text_b"> ★ Applicant Basic Information</caption>
+                                <colgroup>
+                                    <col width="200" />
+                                    <col width="200" />
+                                    <col width="200" />
+                                    <col width="200" />
+                                    <col width="200" />
+                                </colgroup>
+                            </thead>
+                           
+                            <!-- 바디부 -->
+                            <tbody>
+                               
+                                <!-- 이름 -->
+                                <tr>
+                                    <th> Name 이름 </th>
+                                    <td>
+                                        <input type="text" name="inName" class="inBorder"/>
+                                     </td>
+
+                                     <th rowspan="2">Date of birth 생년월일</th>
+                                    <td rowspan="2" colspan="3">
+                                        <input type="text" name="inyear" size="5" class="inBorder" />년
+                                        <select class="inBorder">
+                                            <option value="1">1
+                                            <option value="2">2
+                                            <option value="3">3
+                                            <option value="4">4
+                                            <option value="5">5
+                                            <option value="6">6
+                                            <option value="7">7
+                                            <option value="8">8
+                                            <option value="9">9
+                                            <option value="10">10
+                                            <option value="11">11
+                                            <option value="12">12                            
+                                        </select> 월
+                                        <select class="inBorder">
+                                            <option value="1">1
+                                            <option value="2">2
+                                            <option value="3">3
+                                            <option value="4">4
+                                            <option value="5">5
+                                            <option value="6">6
+                                            <option value="7">7
+                                            <option value="8">8
+                                            <option value="9">9
+                                            <option value="10">10
+                                            <option value="11">11
+                                            <option value="12">12  
+                                            <option value="13">13
+                                            <option value="14">14
+                                            <option value="15">15
+                                            <option value="16">16
+                                            <option value="17">17
+                                            <option value="18">18
+                                            <option value="19">19
+                                            <option value="20">20
+                                            <option value="21">21
+                                            <option value="22">22
+                                            <option value="23">23
+                                            <option value="24">24
+                                            <option value="25">25
+                                            <option value="26">26
+                                            <option value="27">27
+                                            <option value="28">28
+                                            <option value="29">29
+                                            <option value="30">30
+                                            <option value="31">31
+                                        </select> 일
+                                     </td>
+                                </tr>
+                                <!-- 성별 -->
+                                 <tr>
+                                    <th> Sex 성별</th>
+                                    <td>
+                                        <label><input class="mm" type="checkbox" name="Sex 성별" value="Male 남자"> Male 남자</label>
+                                <label><input class="mm" type="checkbox" name="Sex 성별" value="Female 여자">Female 여자</label>
+                                     </td>
+                                </tr>
+                               
+                                <!-- 이메일 -->
+                                <tr>
+                                    <th> E-mail 이메일</th>
+                                    <td colspan="4">
+                                        <input type="text" name="inEmail1" class="inBorder" />@
+                                            <input type="text" name="inEmail2" class="inBorder" />
+                                            <select class="inBorder">
+                                                <option value="0">==직접입력==
+                                                <option value="daum.net">daum.net
+                                                <option value="naver.com">naver.com
+                                                <option value="nate.com">nate.com       
+                                                <option value="nate.com">google.com</option>                             
+                       
+                                            </select>
+                                    </td>
+                                </tr>
+                                <!-- 연락처 -->
+                                <tr>
+                                    <th> Contact 연락처</th>
+                                    <td colspan="4">
+                                        <select style="margin: 10px;" name="inHphone1" class="inBorder">
+                                            <option value="010">010
+                                            <option value="016">061
+                                            <option value="017">063
+                                            <option value="018">063
+                                            <option value="019">추가
+                                        </select>
+                                        <input type="number" name="inName" class="inBorder"/>
+                                        연락처2
+                                        <select style="margin: 10px;" name="inHphone1" class="inBorder">
+                                            <option value="010">010
+                                            <option value="016">061
+                                            <option value="017">063
+                                            <option value="018">063
+                                            <option value="019">추가
+                                        </select><input type="number" name="inName" class="inBorder"/>
+                                     </td>
+                                    </tr>
+
+                                <!-- 주소-->
+                                 <tr>
+                                    <th> Address 주소</th>
+                                    <td colspan="4">
+                                        <input class="input_" type="text" name="inEmail1" class="inBorder" />
+                                            <input class="input_" type="text" name="inEmail2" class="inBorder" />
+                                    </td>
+                                </tr>
+                                
+                                <!-- 가족 -->
+                                <tr>
+                                    <th rowspan="2">Family 국내 가족 사항</th>
+                                    <th>Name 이름</th>
+                                    <th>Relation 관계</th>
+                                    <th>Contact 연락처</th>
+                                    <th>Nationality 국적</th>
+                                    
+                                </tr>
+                                   <!-- ?-->
+                                <tr>
+                                    
+                                    <td>
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                    </td>
+                                    <td>
+                                        <input type="number" name="inIdr" class="inBorder" />
+                                        <input type="number" name="inIdr" class="inBorder" />
+                                        <input type="number" name="inIdr" class="inBorder" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                        <input type="text" name="inIdr" class="inBorder" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="5" class="col12 signTitle">
+                                        ★★★
+                                    </td>      
+                                </tr>
+
+                                <!-- 건강-->
+                                <tr>
+                                    <th>Nationality 국적</th>
+                                    <td>
+                                        <input type="text" name="inName" class="inBorder"/>
+                                     </td>
+                                        <th colspan="3" class="tt">✓ Check List<br/>
+                                        <span class="ttt">아래 문항을 읽고 해당하는 부분에 '체크'를 해주세요.</span></th>
+                                     </td>
+                                </tr>
+                                <!-- 키 -->
+                                 <tr>
+                                    <th>Height 키</th>
+                                    <td>
+                                        <input type="text" name="inIdr" class="inBorder" placeholder="cm"/>
+                                     </td>
+                                     <td colspan="3"> <input class="mm" type="checkbox">심장병으로 인한 질병으로 치료를 받거나, 약물 치료중인가?</td>
+
+                                </tr>
+                                <!-- 몸무게 -->
+                                <tr>
+                                    <th>Weight 몸무게</th>
+                                    <td>
+                                        <input type="text" name="inIdr" class="inBorder" placeholder="kg"/>
+                                     </td>
+                                     <td colspan="3"> <input class="mm" type="checkbox">심장병으로 인한 질병으로 치료를 받거나, 약물 치료중인가?</td>
+
+                                </tr>
+
+                                <!-- 혈액형 -->
+                                <tr>
+                                    <th>Blood Type 혈액형</th>
+                                    <td>
+                                        <label><input class="mm" type="checkbox" name="혈액형" value="A">A</label>
+                                        <label><input class="mm" type="checkbox" name="혈액형" value="B">B</label>
+                                        <label><input class="mm" type="checkbox" name="혈액형" value="O">O</label>
+                                        <label><input class="mm" type="checkbox" name="혈액형" value="AB">AB</label>
+                                     </td>
+                                     <td colspan="3"> <input class="mm" type="checkbox">고혈압으로 인한 질병으로 치료를 받거나, 약물 치료중인가?</td>
+
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="signTitle">
+                                        ★★★
+                                    </td>      
+                                </tr>
+                               
+                                <!-- 여권번호 -->
+                                <tr>
+                                    <th>Passprt No. 여권번호</th>
+                                    <td colspan="4">
+                                        <input class="input_" type="number" name="inIdr" class="inBorder"/>
+                                     </td>
+                                </tr>
+                           
+                                <!-- 확인서 -->
+                                 <tr>
+                                    <th>Confirmation No. 확인서번호</th>
+                                    <td colspan="4">
+                                        <input class="input_" type="number" name="inIdr" class="inBorder"/>
+                                     </td>
+                                </tr>
+                                <!--발급일 -->
+                                <tr>
+                                    <th>Date of Issue 발급일</th>
+                                    <td colspan="4">
+                                        <input type="text" name="inyear" size="5" class="inBorder" />년
+                                        <select class="inBorder">
+                                            <option value="1">1
+                                            <option value="2">2
+                                            <option value="3">3
+                                            <option value="4">4
+                                            <option value="5">5
+                                            <option value="6">6
+                                            <option value="7">7
+                                            <option value="8">8
+                                            <option value="9">9
+                                            <option value="10">10
+                                            <option value="11">11
+                                            <option value="12">12                            
+                                        </select> 월
+                                        <select class="inBorder">
+                                            <option value="1">1
+                                            <option value="2">2
+                                            <option value="3">3
+                                            <option value="4">4
+                                            <option value="5">5
+                                            <option value="6">6
+                                            <option value="7">7
+                                            <option value="8">8
+                                            <option value="9">9
+                                            <option value="10">10
+                                            <option value="11">11
+                                            <option value="12">12  
+                                            <option value="13">13
+                                            <option value="14">14
+                                            <option value="15">15
+                                            <option value="16">16
+                                            <option value="17">17
+                                            <option value="18">18
+                                            <option value="19">19
+                                            <option value="20">20
+                                            <option value="21">21
+                                            <option value="22">22
+                                            <option value="23">23
+                                            <option value="24">24
+                                            <option value="25">25
+                                            <option value="26">26
+                                            <option value="27">27
+                                            <option value="28">28
+                                            <option value="29">29
+                                            <option value="30">30
+                                            <option value="31">31
+                                        </select> 일           
+                                    </td>
+                                </tr>
+                                <!-- 만료일 -->
+                                  <tr>
+                                    <th>Date of Expiry 만료일</th>
+                                    <td colspan="4">
+                                        <input type="text" name="inyear" size="5" class="inBorder" />년
+                                        <select class="inBorder">
+                                            <option value="1">1
+                                            <option value="2">2
+                                            <option value="3">3
+                                            <option value="4">4
+                                            <option value="5">5
+                                            <option value="6">6
+                                            <option value="7">7
+                                            <option value="8">8
+                                            <option value="9">9
+                                            <option value="10">10
+                                            <option value="11">11
+                                            <option value="12">12                            
+                                        </select> 월
+                                        <select class="inBorder">
+                                            <option value="1">1
+                                            <option value="2">2
+                                            <option value="3">3
+                                            <option value="4">4
+                                            <option value="5">5
+                                            <option value="6">6
+                                            <option value="7">7
+                                            <option value="8">8
+                                            <option value="9">9
+                                            <option value="10">10
+                                            <option value="11">11
+                                            <option value="12">12  
+                                            <option value="13">13
+                                            <option value="14">14
+                                            <option value="15">15
+                                            <option value="16">16
+                                            <option value="17">17
+                                            <option value="18">18
+                                            <option value="19">19
+                                            <option value="20">20
+                                            <option value="21">21
+                                            <option value="22">22
+                                            <option value="23">23
+                                            <option value="24">24
+                                            <option value="25">25
+                                            <option value="26">26
+                                            <option value="27">27
+                                            <option value="28">28
+                                            <option value="29">29
+                                            <option value="30">30
+                                            <option value="31">31
+                                        </select> 일           
+                                    </td>
+                                </tr>
+                               
+                               
+                            </tbody>
+                           
+                            
+                            
+                                </tr>
+                            </tfoot>
+                        </table>
+                        </form>
+                    
+                
+
+
+    <nav class="col12 row">
+        <div id="root">
+   
+            <button class="button-r" type="button" id="modal_opne_btn">Submit →</button>
+               
+        </div>
+        
+        <div id="modal">
+           
+            <div class="modal_content">
+                <h2>제출이 완료되었습니다.</h2>
+               
+                <p class="pp">이제 <span class="text_ss">T★M★T</span> 재밌는 여행을 할 수 있습니다.</p>
+               
+                <button class="cbtn" type="button" id="modal_close_btn">완료</button>
+               
+            </div>
+           
+            <div class="modal_layer"></div>
+        </div>
+        
+    </nav>
+    
+        <footer id="footer" class="text-footer bg-blue text-fc">
+            <div class="col6">
+                <p >copyright @ Digital publishing 2023 한경국립대학교<br/>
+                    Digital Graphic - 2021820090 하지은</p>
+            </div>
+        </footer>
+
+</body>
+</html>
